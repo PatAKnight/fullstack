@@ -1,6 +1,33 @@
 # CS465-fullstack
 CS-465 Full Stack Development with MEAN
 
+# Screenshots
+Images from the front end
+
+![Screenshot 2022-02-18 234504](https://user-images.githubusercontent.com/82788581/154787251-f65b88dc-d248-4600-be26-3eed7b5feffc.png)
+
+![Screenshot 2022-02-18 234554](https://user-images.githubusercontent.com/82788581/154787255-25002c38-e23a-4ad0-b801-20c6540a472e.png)
+
+![Screenshot 2022-02-18 234610](https://user-images.githubusercontent.com/82788581/154787258-569c8db7-a82a-407c-8c92-17e55483c44a.png)
+
+Images from the Single Page Application (admin page) with the functionality
+
+Login
+![Screenshot 2022-02-19 001250](https://user-images.githubusercontent.com/82788581/154787278-29101e98-df2c-4f1b-8552-42d7e0dd82f6.png)
+
+Main page
+![Screenshot 2022-02-19 001148](https://user-images.githubusercontent.com/82788581/154787287-31450a6c-1ad3-4157-81e8-9a83c2d1fcdd.png)
+
+Add trip function
+![Screenshot 2022-02-19 001202](https://user-images.githubusercontent.com/82788581/154787292-c32f6bd5-3835-4a37-bf98-79f7eeaca36d.png)
+
+Edit trip function
+![Screenshot 2022-02-19 001215](https://user-images.githubusercontent.com/82788581/154787296-06206b57-8d0f-4ec2-b159-47c753a14416.png)
+
+Delete trip function
+![Screenshot 2022-02-19 001234](https://user-images.githubusercontent.com/82788581/154787303-c43613dc-5b8f-4881-af3b-978f61cee1e8.png)
+
+
 # Architecture
 * Compare and contrast the types of frontend development you used in your full-stack project, including Express HTML, JavaScript, and the single-page application (SPA).
 
