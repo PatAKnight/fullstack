@@ -1,6 +1,52 @@
 # CS465-fullstack
 CS-465 Full Stack Development with MEAN
 
+## Table of Contents
+* [Introduction](#Introduction)
+* [Technologies](#Technologies)
+* [Setup](#Setup)
+* [Functionality](#Functionality)
+* [Usage](#Usage)
+* [Future Functionaility](#Future-Functionaility)
+* [Sources](#Sources)
+
+## Introduction
+Travlr is a web application used to view travle packages. Travel information is divided into travel, rooms, and meals. Travlr also includes a news section for information on events. Travlr also includes an administration sevice built within the project to manage content
+
+This was a school project where a pre-built static webpage was transformed into a dynamic full stack application. Within this project, we learned about the Model View Controller framework. Our model was the trip information being served up to the webpage or view from the server or controller. This project was built using the Mongodb, Express, Angular, and Node.js stack.
+
+## Technologies
+#### FrontEnd
+* Angular 13.2.5
+* Node 14.19.0
+* Languages used: HTML, CSS, Typescript
+#### BackEnd
+* Node.js
+* Express
+* Language used: Javascript
+#### Database
+* MongoDB 5.0.3
+
+##Setup 
+* Clone the application
+`git clone https://github.com/SNHUPatKnight/fullstack.git`
+
+* Navigate to the folder to run the application
+```
+cd .\fullstack\
+ng serve
+```
+* The frontend will load on http://localhost:3000
+
+* Navigate to the admin folder to run the admin application
+```
+cd .\fullstack\app_admin\
+ng serve
+```
+** The admin will load on http://localhost:4200
+
+## Functionality
+
 # Screenshots
 Images from the front end
 
@@ -28,7 +74,8 @@ Delete trip function
 ![Screenshot 2022-02-19 001234](https://user-images.githubusercontent.com/82788581/154787303-c43613dc-5b8f-4881-af3b-978f61cee1e8.png)
 
 
-# Architecture
+# School Reflection
+## Architecture
 * Compare and contrast the types of frontend development you used in your full-stack project, including Express HTML, JavaScript, and the single-page application (SPA).
 
 HyperText Markup Language, HTML, is a language that is used to design a webpage. HTML pages are static with no real interactivity. JavaScript is a programming language that is used to enhance web pages. It can be used to make web pages more dynamic. Single-page applications, SPA, are simple webpage where all information can be stored and edited. SPA’s can be used as administration sites.
@@ -37,7 +84,7 @@ HyperText Markup Language, HTML, is a language that is used to design a webpage.
 
 A NoSQL database is a type of database that does not require a structure for data. This means that a document that is stored within the databases does not need to have the same information as any of the other data stored. Another benefit of NoSQL in this project is that the documents are stored as JSON objects. JSON or JavaScript Object Notation is a format for data. JSON is easily accessible with the JavaScript programming language that was used in this project
 
-# Functionality
+## Functionality
 
 * How is JSON different from JavaScript and how does JSON tie together the frontend and backend development pieces?
 
@@ -49,13 +96,13 @@ One instance where we refactored code is when we took the static HTML pages and 
 
 Another instance of refactoring the project is when we created a separate header and footer file that would control the view of the two. This cuts down on reused code throughout the project. It also simplifies the approach of making changes to the project because we only need to go to a single file to make updates.
 
-# Testing
+## Testing
 
 * Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full-stack application.
 
 Creating separate methods that handle the different requests and retrieval makes the project easier to maintain. If there is an issue with a particular method, a developer can quickly navigate there and create a fix for the issue. Methods also make testing the project easier as we can test the individual calls for functionality. When testing methods, we are also testing the communication between the frontend and backend of the project or the endpoints. Security is important in the project because we do not want all individuals to have access to the data that is stored. We want users to be able to access the data but not to make changes and we want the admin to be able to access and make changes to the data. We need to make sure through testing that the authorization in the project works as intended.
 
-# Reflection
+## Reflection
 
 * How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
 
