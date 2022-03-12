@@ -27,7 +27,7 @@ This was a school project where a pre-built static webpage was transformed into 
 #### Database
 * MongoDB 5.0.3
 
-##Setup 
+## Setup 
 * Clone the application
 `git clone https://github.com/SNHUPatKnight/fullstack.git`
 
