@@ -43,7 +43,7 @@ ng serve
 cd .\fullstack\app_admin\
 ng serve
 ```
-** The admin will load on http://localhost:4200
+* The admin will load on http://localhost:4200
 
 ## Functionality
 * Dynamically serves information using the MVC framework
