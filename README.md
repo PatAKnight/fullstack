@@ -11,9 +11,9 @@ CS-465 Full Stack Development with MEAN
 * [Sources](#Sources)
 
 ## Introduction
-Travlr is a web application used to view travle packages. Travel information is divided into travel, rooms, and meals. Travlr also includes a news section for information on events. Travlr also includes an administration sevice built within the project to manage content
+Travlr is a web application used to view travel packages. Travel information is divided into travel, rooms, and meals. Travlr also includes a news section for information on events. Travlr also includes an administration service built within the project to manage content
 
-This was a school project where a pre-built static webpage was transformed into a dynamic full stack application. Within this project, we learned about the Model View Controller framework. Our model was the trip information being served up to the webpage or view from the server or controller. This project was built using the Mongodb, Express, Angular, and Node.js stack.
+This was a school project where a pre-built static webpage was transformed into a dynamic full stack application. Within this project, we learned about the Model View Controller framework. Our model was the trip information being served up to the webpage or view from the server or controller. This project was built using the MongoDB, Express, Angular, and Node.js stack.
 
 ## Technologies
 #### FrontEnd
@@ -46,32 +46,51 @@ ng serve
 ** The admin will load on http://localhost:4200
 
 ## Functionality
+* Dynamically serves information using the MVC framework
+* Register a new Admin account
+* Login and Logout through Authentication
+* Create, Read, Update, and Delete trip information
+* Authorization checks whether CRUD operations can be performed
+* Authorization  using generated security tokens
+* Admin app built as a single page application
 
-# Screenshots
-Images from the front end
-
+## Usage
+Load Main App and navigate through the different scenes
 ![Screenshot 2022-02-18 234504](https://user-images.githubusercontent.com/82788581/154787251-f65b88dc-d248-4600-be26-3eed7b5feffc.png)
 
 ![Screenshot 2022-02-18 234554](https://user-images.githubusercontent.com/82788581/154787255-25002c38-e23a-4ad0-b801-20c6540a472e.png)
 
 ![Screenshot 2022-02-18 234610](https://user-images.githubusercontent.com/82788581/154787258-569c8db7-a82a-407c-8c92-17e55483c44a.png)
 
-Images from the Single Page Application (admin page) with the functionality
-
-Login
+Load the Admin App and login in
 ![Screenshot 2022-02-19 001250](https://user-images.githubusercontent.com/82788581/154787278-29101e98-df2c-4f1b-8552-42d7e0dd82f6.png)
 
-Main page
+View the trips
 ![Screenshot 2022-02-19 001148](https://user-images.githubusercontent.com/82788581/154787287-31450a6c-1ad3-4157-81e8-9a83c2d1fcdd.png)
 
-Add trip function
+Add a new trip
 ![Screenshot 2022-02-19 001202](https://user-images.githubusercontent.com/82788581/154787292-c32f6bd5-3835-4a37-bf98-79f7eeaca36d.png)
 
-Edit trip function
+Edit a trip
 ![Screenshot 2022-02-19 001215](https://user-images.githubusercontent.com/82788581/154787296-06206b57-8d0f-4ec2-b159-47c753a14416.png)
 
-Delete trip function
+Delete a trip
 ![Screenshot 2022-02-19 001234](https://user-images.githubusercontent.com/82788581/154787303-c43613dc-5b8f-4881-af3b-978f61cee1e8.png)
+
+## Future Functionality
+* Deploy Application to either AWS or Heroku
+* Migrate the Rooms, Meals, and News information to the database
+* Implement CRUD operations for Rooms, Meals, and News information
+* Create Users
+* Grant users the ability to book packages
+
+## Sources
+This project was as coursework for a class. This was my first introduction ito full stack applications and MVC frameworks. 
+* CS - 465 Full Stack Development
+     * Southern New Hampshire University
+* Getting MEAN with Mongo, Express, Angular, and Node
+     * Author: Simon Holmes 
+     * Creates a review tracking system using Mongo, Express, Angular, and Node
 
 
 # School Reflection
