@@ -9,6 +9,7 @@ CS-465 Full Stack Development with MEAN
 * [Usage](#Usage)
 * [Future Functionality](#Future-Functionality)
 * [Sources](#Sources)
+* [School Reflection](#School Reflection)
 
 ## Introduction
 Travlr is a web application used to view travel packages. Travel information is divided into travel, rooms, and meals. Travlr also includes a news section for information on events. Travlr also includes an administration service built within the project to manage content
