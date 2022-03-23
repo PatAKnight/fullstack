@@ -7,7 +7,7 @@ CS-465 Full Stack Development with MEAN
 * [Setup](#Setup)
 * [Functionality](#Functionality)
 * [Usage](#Usage)
-* [Future Functionaility](#Future-Functionaility)
+* [Future Functionality](#Future-Functionality)
 * [Sources](#Sources)
 
 ## Introduction
